@@ -1,1 +1,1 @@
-# PlugTrack: Multi-Perceptive Motion Analysis for Adaptive Fusion in Multi-Object Tracking (AAAAI 2026)
+# PlugTrack: Multi-Perceptive Motion Analysis for Adaptive Fusion in Multi-Object Tracking (AAAI 2026)
