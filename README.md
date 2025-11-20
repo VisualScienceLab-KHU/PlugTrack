@@ -22,17 +22,18 @@
 
 <table>
   <tr>
-    <th>Dataset</th>
+    <th colspan="2">Dataset</th>
     <th>HOTA</th>
     <th>IDF1</th>
-    <th>Assa</th>
+    <th>AssA</th>
     <th>MOTA</th>
     <th>DetA</th>
   </tr>
 
-  <!-- DanceTrack (left single row -> right two rows) -->
+  <!-- DanceTrack -->
   <tr>
     <td rowspan="2">DanceTrack</td>
+    <td>Base</td>
     <td>62.3</td>
     <td>63.0</td>
     <td>47.2</td>
@@ -40,26 +41,18 @@
     <td>82.5</td>
   </tr>
   <tr>
-    <!-- second row under DanceTrack -->
-    <td colspan="5">
-    <td>62.3</td>
-    <td>63.0</td>
-    <td>47.2</td>
-    <td>92.8</td>
-    <td>82.5</td>
-    </td>
+    <td>Ours</td>
+    <td>62.8</td>
+    <td>63.4</td>
+    <td>47.7</td>
+    <td>92.9</td>
+    <td>82.7</td>
   </tr>
 
+  <!-- MOT17 -->
   <tr>
-    <td>SportsMOT</td>
-    <td>76.2</td>
-    <td>76.1</td>
-    <td>65.1</td>
-    <td>97.1</td>
-    <td>89.3</td>
-  </tr>
-  <tr>
-    <td>MOT17</td>
+    <td rowspan="2">MOT17</td>
+    <td>Base</td>
     <td>64.5</td>
     <td>79.3</td>
     <td>64.6</td>
@@ -67,14 +60,34 @@
     <td>64.7</td>
   </tr>
   <tr>
-    <td>MOT20</td>
+    <td>Ours</td>
+    <td>--</td>
+    <td>--</td>
+    <td>--</td>
+    <td>--</td>
+    <td>--</td>
+  </tr>
+
+  <!-- MOT20 -->
+  <tr>
+    <td rowspan="2">MOT20</td>
+    <td>Base</td>
     <td>61.7</td>
     <td>74.9</td>
     <td>60.5</td>
     <td>76.7</td>
     <td>63.2</td>
   </tr>
+  <tr>
+    <td>Ours</td>
+    <td>--</td>
+    <td>--</td>
+    <td>--</td>
+    <td>--</td>
+    <td>--</td>
+  </tr>
 </table>
+
 
 
 ## 🚀 Tracking performance
