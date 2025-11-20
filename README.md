@@ -30,40 +30,21 @@
     <th>DetA</th>
   </tr>
 
-  <!-- DanceTrack 블록 (바깥 테이블) -->
+  <!-- DanceTrack 영역: Dataset 컬럼이 3행(rowspan=3) -->
   <tr>
-    <!-- 1열의 2행 전체를 담당하는 셀 -->
-    <td rowspan="3" style="padding:0;">
-      <!-- 안쪽에 작은 테이블로 2열 + (2열의 2행) 구성 -->
-      <table style="border-collapse:collapse; width:100%; height:100%;">
-        <tr>
-          <!-- 왼쪽 열 (DanceTrack) : 세로로 두 줄을 차지 -->
-          <td rowspan="2" style="border:1px solid #444; padding:4px;">DanceTrack</td>
-          <!-- 오른쪽 열의 첫 번째 행 -->
-          <td style="border:1px solid #444; padding:4px;">서브 1</td>
-        </tr>
-        <tr>
-          <!-- 오른쪽 열의 두 번째 행 -->
-          <td style="border:1px solid #444; padding:4px;">서브 2</td>
-        </tr>
-      </table>
-    </td>
-
-    <!-- 나머지 열들 -->
+    <td rowspan="3">DanceTrack</td>
     <td>62.3</td>
     <td>63.0</td>
     <td>47.2</td>
     <td>92.8</td>
     <td>82.5</td>
   </tr>
-
-  <!-- DanceTrack 두 번째 줄 -->
   <tr>
+    <!-- 1열의 두 번째 칸 (실제로는 Dataset 셀 안의 두 번째 행 느낌) -->
     <td colspan="5">여기에 두 번째 줄 내용</td>
   </tr>
-
-  <!-- DanceTrack 세 번째 줄 -->
   <tr>
+    <!-- 1열의 세 번째 칸 -->
     <td colspan="5">여기에 세 번째 줄 내용</td>
   </tr>
 
@@ -92,7 +73,6 @@
     <td>63.2</td>
   </tr>
 </table>
-
 
 ## 🚀 Tracking performance
 
