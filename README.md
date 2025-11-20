@@ -20,6 +20,10 @@
 </p>
 
 
+## 🚀 Tracking performance
+
+PlugTrack(DiffMOT)
+
 <table>
   <tr>
     <th colspan="2">Dataset</th>
@@ -42,68 +46,118 @@
   </tr>
   <tr>
     <td>Ours</td>
-    <td>62.8</td>
-    <td>63.4</td>
-    <td>47.7</td>
-    <td>92.9</td>
-    <td>82.7</td>
+    <td>63.3</td>
+    <td>64.1</td>
+    <td>48.4</td>
+    <td>92.4</td>
+    <td>82.5</td>
   </tr>
 
   <!-- MOT17 -->
   <tr>
     <td rowspan="2">MOT17</td>
     <td>Base</td>
-    <td>64.5</td>
-    <td>79.3</td>
-    <td>64.6</td>
-    <td>79.8</td>
-    <td>64.7</td>
+    <td>64.0</td>
+    <td>78.9</td>
+    <td>64.2</td>
+    <td>79.1</td>
+    <td>64.1</td>
   </tr>
   <tr>
     <td>Ours</td>
-    <td>--</td>
-    <td>--</td>
-    <td>--</td>
-    <td>--</td>
-    <td>--</td>
+    <td>64.2</td>
+    <td>79.0</td>
+    <td>64.4</td>
+    <td>79.2</td>
+    <td>74.0</td>
   </tr>
 
   <!-- MOT20 -->
   <tr>
     <td rowspan="2">MOT20</td>
     <td>Base</td>
-    <td>61.7</td>
+    <td>61.6</td>
     <td>74.9</td>
     <td>60.5</td>
-    <td>76.7</td>
-    <td>63.2</td>
+    <td>76.3</td>
+    <td>62.8</td>
   </tr>
   <tr>
     <td>Ours</td>
-    <td>--</td>
-    <td>--</td>
-    <td>--</td>
-    <td>--</td>
-    <td>--</td>
+    <td>61.8</td>
+    <td>75.2</td>
+    <td>60.9</td>
+    <td>76.4</td>
+    <td>62.9</td>
   </tr>
 </table>
 
-
-
-## 🚀 Tracking performance
-
-PlugTrack(DiffMOT)
-| Dataset    |  HOTA | IDF1 | Assa | MOTA | DetA | 
-|--------------|-----------|--------|-------|----------|----------|
-|DanceTrack  | 62.3 | 63.0 | 47.2 | 92.8 | 82.5 | 
-|SportsMOT   | 76.2 | 76.1 | 65.1 | 97.1 | 89.3 | 
-|MOT17       | 64.5 | 79.3 | 64.6 | 79.8 | 64.7 | 
-|MOT20       | 61.7 | 74.9 | 60.5 | 76.7 | 63.2 | 
-
 PlugTrack(TrackSSM)
-| Dataset    |  HOTA | IDF1 | Assa | MOTA | DetA | 
-|--------------|-----------|--------|-------|----------|----------|
-|DanceTrack  | 62.3 | 63.0 | 47.2 | 92.8 | 82.5 | 
-|SportsMOT   | 76.2 | 76.1 | 65.1 | 97.1 | 89.3 | 
-|MOT17       | 64.5 | 79.3 | 64.6 | 79.8 | 64.7 | 
-|MOT20       | 61.7 | 74.9 | 60.5 | 76.7 | 63.2 |
+
+<table>
+  <tr>
+    <th colspan="2">Dataset</th>
+    <th>HOTA</th>
+    <th>IDF1</th>
+    <th>AssA</th>
+    <th>MOTA</th>
+    <th>DetA</th>
+  </tr>
+
+  <!-- DanceTrack -->
+  <tr>
+    <td rowspan="2">DanceTrack</td>
+    <td>Base</td>
+    <td>57.7</td>
+    <td>57.5</td>
+    <td>41.0</td>
+    <td>92.2</td>
+    <td>81.5</td>
+  </tr>
+  <tr>
+    <td>Ours</td>
+    <td>59.2</td>
+    <td>59.0</td>
+    <td>42.9</td>
+    <td>92.2</td>
+    <td>81.9</td>
+  </tr>
+
+  <!-- MOT17 -->
+  <tr>
+    <td rowspan="2">MOT17</td>
+    <td>Base</td>
+    <td>61.4</td>
+    <td>74.1</td>
+    <td>59.6</td>
+    <td>78.5</td>
+    <td>63.6</td>
+  </tr>
+  <tr>
+    <td>Ours</td>
+    <td>61.9</td>
+    <td>75.2</td>
+    <td>60.3</td>
+    <td>78.7</td>
+    <td>63.9</td>
+  </tr>
+
+  <!-- MOT20 -->
+  <tr>
+    <td rowspan="2">MOT20</td>
+    <td>Base</td>
+    <td>59.1</td>
+    <td>71.1</td>
+    <td>57.5</td>
+    <td>73.9</td>
+    <td>60.9</td>
+  </tr>
+  <tr>
+    <td>Ours</td>
+    <td>59.7</td>
+    <td>72.3</td>
+    <td>58.5</td>
+    <td>61.3</td>
+    <td>74.5</td>
+  </tr>
+</table>
