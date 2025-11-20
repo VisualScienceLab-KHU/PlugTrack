@@ -41,7 +41,13 @@
   </tr>
   <tr>
     <!-- second row under DanceTrack -->
-    <td colspan="5">여기에 원하는 내용을 넣기</td>
+    <td colspan="5">
+    <td>62.3</td>
+    <td>63.0</td>
+    <td>47.2</td>
+    <td>92.8</td>
+    <td>82.5</td>
+    </td>
   </tr>
 
   <tr>
