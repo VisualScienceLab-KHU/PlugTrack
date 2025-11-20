@@ -30,9 +30,9 @@
     <th>DetA</th>
   </tr>
 
-  <!-- DanceTrack (left single row -> right two rows) -->
+  <!-- DanceTrack 영역: Dataset 컬럼이 3행(rowspan=3) -->
   <tr>
-    <td rowspan="2">DanceTrack</td>
+    <td rowspan="3">DanceTrack</td>
     <td>62.3</td>
     <td>63.0</td>
     <td>47.2</td>
@@ -40,8 +40,12 @@
     <td>82.5</td>
   </tr>
   <tr>
-    <!-- second row under DanceTrack -->
-    <td colspan="5">여기에 원하는 내용을 넣기</td>
+    <!-- 1열의 두 번째 칸 (실제로는 Dataset 셀 안의 두 번째 행 느낌) -->
+    <td colspan="5">여기에 두 번째 줄 내용</td>
+  </tr>
+  <tr>
+    <!-- 1열의 세 번째 칸 -->
+    <td colspan="5">여기에 세 번째 줄 내용</td>
   </tr>
 
   <tr>
