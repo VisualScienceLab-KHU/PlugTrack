@@ -19,20 +19,71 @@
   <img src="./img/figure1.png" width="800">
 </p>
 
+
+<table>
+  <tr>
+    <th>Dataset</th>
+    <th>HOTA</th>
+    <th>IDF1</th>
+    <th>Assa</th>
+    <th>MOTA</th>
+    <th>DetA</th>
+  </tr>
+
+  <!-- DanceTrack (left single row -> right two rows) -->
+  <tr>
+    <td rowspan="2">DanceTrack</td>
+    <td>62.3</td>
+    <td>63.0</td>
+    <td>47.2</td>
+    <td>92.8</td>
+    <td>82.5</td>
+  </tr>
+  <tr>
+    <!-- second row under DanceTrack -->
+    <td colspan="5">여기에 원하는 내용을 넣기</td>
+  </tr>
+
+  <tr>
+    <td>SportsMOT</td>
+    <td>76.2</td>
+    <td>76.1</td>
+    <td>65.1</td>
+    <td>97.1</td>
+    <td>89.3</td>
+  </tr>
+  <tr>
+    <td>MOT17</td>
+    <td>64.5</td>
+    <td>79.3</td>
+    <td>64.6</td>
+    <td>79.8</td>
+    <td>64.7</td>
+  </tr>
+  <tr>
+    <td>MOT20</td>
+    <td>61.7</td>
+    <td>74.9</td>
+    <td>60.5</td>
+    <td>76.7</td>
+    <td>63.2</td>
+  </tr>
+</table>
+
 ## 🚀 Tracking performance
-### Benchmark Evaluation 
+
 PlugTrack(DiffMOT)
-| Dataset    |  HOTA | IDF1 | Assa | MOTA | DetA | Weight | Results |
-|--------------|-----------|--------|-------|----------|----------|----------|----------|
-|DanceTrack  | 62.3 | 63.0 | 47.2 | 92.8 | 82.5 | [download](https://github.com/Kroery/DiffMOT/releases/download/v1.0/DanceTrack_epoch800.pt) | [DanceTrack_Results](https://github.com/Kroery/DiffMOT/releases/download/v1.2/DanceTrack_DiffMOT.zip)|
-|SportsMOT   | 76.2 | 76.1 | 65.1 | 97.1 | 89.3 | [download](https://github.com/Kroery/DiffMOT/releases/download/v1.0/SportsMOT_epoch1200.pt) | [SportsMOT_Results](https://github.com/Kroery/DiffMOT/releases/download/v1.2/SportsMOT_DiffMOT.zip)|
-|MOT17       | 64.5 | 79.3 | 64.6 | 79.8 | 64.7 | [download](https://github.com/Kroery/DiffMOT/releases/download/v1.0/MOT_epoch800.pt) | [MOT17_Results](https://github.com/Kroery/DiffMOT/releases/download/v1.2/MOT17_DiffMOT.zip)|
-|MOT20       | 61.7 | 74.9 | 60.5 | 76.7 | 63.2 | [download](https://github.com/Kroery/DiffMOT/releases/download/v1.0/MOT_epoch800.pt) | [MOT20_Results](https://github.com/Kroery/DiffMOT/releases/download/v1.2/MOT20_DiffMOT.zip)|
+| Dataset    |  HOTA | IDF1 | Assa | MOTA | DetA | 
+|--------------|-----------|--------|-------|----------|----------|
+|DanceTrack  | 62.3 | 63.0 | 47.2 | 92.8 | 82.5 | 
+|SportsMOT   | 76.2 | 76.1 | 65.1 | 97.1 | 89.3 | 
+|MOT17       | 64.5 | 79.3 | 64.6 | 79.8 | 64.7 | 
+|MOT20       | 61.7 | 74.9 | 60.5 | 76.7 | 63.2 | 
 
 PlugTrack(TrackSSM)
-| Dataset    |  HOTA | IDF1 | Assa | MOTA | DetA | Weight | Results |
-|--------------|-----------|--------|-------|----------|----------|----------|----------|
-|DanceTrack  | 62.3 | 63.0 | 47.2 | 92.8 | 82.5 | [download](https://github.com/Kroery/DiffMOT/releases/download/v1.0/DanceTrack_epoch800.pt) | [DanceTrack_Results](https://github.com/Kroery/DiffMOT/releases/download/v1.2/DanceTrack_DiffMOT.zip)|
-|SportsMOT   | 76.2 | 76.1 | 65.1 | 97.1 | 89.3 | [download](https://github.com/Kroery/DiffMOT/releases/download/v1.0/SportsMOT_epoch1200.pt) | [SportsMOT_Results](https://github.com/Kroery/DiffMOT/releases/download/v1.2/SportsMOT_DiffMOT.zip)|
-|MOT17       | 64.5 | 79.3 | 64.6 | 79.8 | 64.7 | [download](https://github.com/Kroery/DiffMOT/releases/download/v1.0/MOT_epoch800.pt) | [MOT17_Results](https://github.com/Kroery/DiffMOT/releases/download/v1.2/MOT17_DiffMOT.zip)|
-|MOT20       | 61.7 | 74.9 | 60.5 | 76.7 | 63.2 | [download](https://github.com/Kroery/DiffMOT/releases/download/v1.0/MOT_epoch800.pt) | [MOT20_Results](https://github.com/Kroery/DiffMOT/releases/download/v1.2/MOT20_DiffMOT.zip)|
+| Dataset    |  HOTA | IDF1 | Assa | MOTA | DetA | 
+|--------------|-----------|--------|-------|----------|----------|
+|DanceTrack  | 62.3 | 63.0 | 47.2 | 92.8 | 82.5 | 
+|SportsMOT   | 76.2 | 76.1 | 65.1 | 97.1 | 89.3 | 
+|MOT17       | 64.5 | 79.3 | 64.6 | 79.8 | 64.7 | 
+|MOT20       | 61.7 | 74.9 | 60.5 | 76.7 | 63.2 |
