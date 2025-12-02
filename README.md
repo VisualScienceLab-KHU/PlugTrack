@@ -161,3 +161,28 @@ PlugTrack(TrackSSM)
     <td>74.5</td>
   </tr>
 </table>
+
+## 🧩 Usage
+
+PlugTrack is designed as a **plug-and-play module** that can be seamlessly integrated into existing multi-object tracking pipelines.  
+All core components, feature extractors, and fusion modules are provided in the **`assets/`** directory.
+
+- **Full implementation:**  
+  👉 [`assets/`](https://github.com/VisualScienceLab-KHU/PlugTrack/tree/main/assets)
+
+PlugTrack supports both **TrackSSM** and **DiffMOT**.  
+We provide minimal working examples demonstrating how to plug PlugTrack into each framework:
+
+- **PlugTrack + TrackSSM example:**  
+  👉 [`example_autoencoder_trackssm.py`](https://github.com/VisualScienceLab-KHU/PlugTrack/blob/main/example_autoencoder_trackssm.py)
+
+- **PlugTrack + DiffMOT example:**  
+  👉 [`example_autoencoder_diffmot.py`](https://github.com/VisualScienceLab-KHU/PlugTrack/blob/main/example_autoencoder_diffmot.py)
+
+Each example illustrates:
+- how to import and initialize the PlugTrack fusion module  
+- how to attach it to the base model (TrackSSM or DiffMOT)  
+- how to run the end-to-end tracking pipeline with PlugTrack integrated
+
+You can extend these templates to integrate PlugTrack with other detectors or trackers.  
+**Contributions and plug-in adapters for new models are welcome!**
