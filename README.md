@@ -7,7 +7,6 @@
     <a href="https://my.surfit.io/w/1720083748">SeungJoon Lee</a>
     &nbsp;·&nbsp;
     <a href="https://myeongahcho.netlify.app/">MyeongAh Cho</a>
-    &nbsp;·&nbsp;
   </p>
   <h3 align="center">AAAI 2026</h3>
   <h3 align="center"><a href="https://arxiv.org/abs/2511.13105">Paper</a> | <a href="https://github.com/VisualScienceLab-KHU/PlugTrack?tab=readme-ov-file">Project Page</a> | <a href="https://drive.google.com/drive/folders/10wlyUog-jtK87P4TFUKNEKOLuxjPBdJi?usp=drive_link">Pretrained Models</a> </h3>
