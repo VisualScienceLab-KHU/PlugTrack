@@ -186,3 +186,16 @@ Each example illustrates:
 
 You can extend these templates to integrate PlugTrack with other detectors or trackers.  
 **Contributions and plug-in adapters for new models are welcome!**
+
+## 📚 Citation
+
+If you find our work useful, please cite:
+
+```
+@article{kim2025plugtrack,
+  title={PlugTrack: Multi-Perceptive Motion Analysis for Adaptive Fusion in Multi-Object Tracking},
+  author={Kim, Seungjae and Lee, SeungJoon and Cho, MyeongAh},
+  journal={arXiv preprint arXiv:2511.13105},
+  year={2025}
+}
+```
