@@ -172,10 +172,10 @@ All core components, feature extractors, and fusion modules are provided in the 
 PlugTrack supports both **TrackSSM** and **DiffMOT**.  
 We provide minimal working examples demonstrating how to plug PlugTrack into each framework:
 
-- **PlugTrack + TrackSSM example:**  
+- **PlugTrack(TrackSSM) example:**  
   👉 [`example_autoencoder_trackssm.py`](https://github.com/VisualScienceLab-KHU/PlugTrack/blob/main/example_autoencoder_trackssm.py)
 
-- **PlugTrack + DiffMOT example:**  
+- **PlugTrack(DiffMOT) example:**  
   👉 [`example_autoencoder_diffmot.py`](https://github.com/VisualScienceLab-KHU/PlugTrack/blob/main/example_autoencoder_diffmot.py)
 
 Each example illustrates:
